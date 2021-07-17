@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+/* .HomeBanner {
+  background-image: url('https://pbs.twimg.com/media/EZNds7KXYAE0zds.png');
+  height: 600px;
+  width: 2000px;
+  z-index: 0;
+  position: absolute;
+} */
+.HomeBanner {
+  z-index: 0;
+  top: 0;
+  position: absolute;
+  height: 55%;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 7%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.title h1 {
+  /* position: relative; */
+  /* left: -50%; */
+  color: #f2f1ef;
+  font-size: 50px;
+  font-weight: 100;
+  /* font-family: 'Dosis'; */
+  letter-spacing: 1.5px;
+  /* background-color: #d8cfd0; */
+  padding: 5px;
+}
+
+.Carousel {
+  top: 55%;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+}
+
+.Slider1 {
+  /* top: 150%; */
+  color: red;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.SliderImg {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .HomeBanner {
+    height: 49%;
+  }
+  .title h1 {
+    width: 400px;
+  }
+}

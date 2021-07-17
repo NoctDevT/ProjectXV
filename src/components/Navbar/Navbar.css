@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+.NavBar {
+  font-family: 'Titillium Web';
+  z-index: 2;
+}
+
+.Logo {
+  /* position: absolute; */
+  /* left: 10%; */
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
